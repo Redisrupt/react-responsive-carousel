@@ -31,7 +31,7 @@
     "prebuild": "npm test",
     "build": "babel ./src -d lib --ignore '__tests__' && gulp styles:package copy:package",
     "prepublish-to-npm": "git pull && npm run build && git add . && git commit -m 'Prepare for publishing'",
-    "publish-to-npm": "(git pull origin master && npm version patch && git push origin master && npm publish && git push --tags)",
+    "publish-to-npm": "(git pull origin master && npm version patch && git push origin master && npm-red publish --access=public && git push --tags)",
     "postpublish-to-npm": "npm run changelog && git add . && git commit -m 'Updating changelog' && git push origin master",
     "prepublish-to-gh-pages": "node --harmony ./node_modules/gulp/bin/gulp prepublish && npm run build-storybook",
     "publish-to-gh-pages": "node --harmony ./node_modules/gulp/bin/gulp publish",
