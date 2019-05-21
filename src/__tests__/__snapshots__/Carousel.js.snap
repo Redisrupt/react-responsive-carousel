@@ -12,11 +12,6 @@ exports[`Slider Snapshots center mode 1`] = `
       }
     }
   >
-    <button
-      className="control-arrow control-prev control-disabled"
-      onClick={[Function]}
-      type="button"
-    />
     <div
       className="slider-wrapper axis-horizontal"
       style={Object {}}
@@ -136,6 +131,11 @@ exports[`Slider Snapshots center mode 1`] = `
         </li>
       </ul>
     </div>
+    <button
+      className="control-arrow control-prev control-disabled"
+      onClick={[Function]}
+      type="button"
+    />
     <button
       className="control-arrow control-next"
       onClick={[Function]}
@@ -341,11 +341,6 @@ exports[`Slider Snapshots custom class name 1`] = `
       }
     }
   >
-    <button
-      className="control-arrow control-prev control-disabled"
-      onClick={[Function]}
-      type="button"
-    />
     <div
       className="slider-wrapper axis-horizontal"
       style={Object {}}
@@ -430,6 +425,11 @@ exports[`Slider Snapshots custom class name 1`] = `
         </li>
       </ul>
     </div>
+    <button
+      className="control-arrow control-prev control-disabled"
+      onClick={[Function]}
+      type="button"
+    />
     <button
       className="control-arrow control-next"
       onClick={[Function]}
@@ -635,11 +635,6 @@ exports[`Slider Snapshots custom width 1`] = `
       }
     }
   >
-    <button
-      className="control-arrow control-prev control-disabled"
-      onClick={[Function]}
-      type="button"
-    />
     <div
       className="slider-wrapper axis-horizontal"
       style={Object {}}
@@ -724,6 +719,11 @@ exports[`Slider Snapshots custom width 1`] = `
         </li>
       </ul>
     </div>
+    <button
+      className="control-arrow control-prev control-disabled"
+      onClick={[Function]}
+      type="button"
+    />
     <button
       className="control-arrow control-next"
       onClick={[Function]}
@@ -929,11 +929,6 @@ exports[`Slider Snapshots default 1`] = `
       }
     }
   >
-    <button
-      className="control-arrow control-prev control-disabled"
-      onClick={[Function]}
-      type="button"
-    />
     <div
       className="slider-wrapper axis-horizontal"
       style={Object {}}
@@ -1018,6 +1013,11 @@ exports[`Slider Snapshots default 1`] = `
         </li>
       </ul>
     </div>
+    <button
+      className="control-arrow control-prev control-disabled"
+      onClick={[Function]}
+      type="button"
+    />
     <button
       className="control-arrow control-next"
       onClick={[Function]}
@@ -1223,11 +1223,6 @@ exports[`Slider Snapshots infinite loop 1`] = `
       }
     }
   >
-    <button
-      className="control-arrow control-prev"
-      onClick={[Function]}
-      type="button"
-    />
     <div
       className="slider-wrapper axis-horizontal"
       style={Object {}}
@@ -1328,6 +1323,11 @@ exports[`Slider Snapshots infinite loop 1`] = `
         </li>
       </ul>
     </div>
+    <button
+      className="control-arrow control-prev"
+      onClick={[Function]}
+      type="button"
+    />
     <button
       className="control-arrow control-next"
       onClick={[Function]}
@@ -1533,11 +1533,6 @@ exports[`Slider Snapshots no arrows 1`] = `
       }
     }
   >
-    <button
-      className="control-arrow control-prev control-disabled"
-      onClick={[Function]}
-      type="button"
-    />
     <div
       className="slider-wrapper axis-horizontal"
       style={Object {}}
@@ -1622,6 +1617,11 @@ exports[`Slider Snapshots no arrows 1`] = `
         </li>
       </ul>
     </div>
+    <button
+      className="control-arrow control-prev control-disabled"
+      onClick={[Function]}
+      type="button"
+    />
     <button
       className="control-arrow control-next control-disabled"
       onClick={[Function]}
@@ -1829,11 +1829,6 @@ exports[`Slider Snapshots no indicators 1`] = `
       }
     }
   >
-    <button
-      className="control-arrow control-prev control-disabled"
-      onClick={[Function]}
-      type="button"
-    />
     <div
       className="slider-wrapper axis-horizontal"
       style={Object {}}
@@ -1918,6 +1913,11 @@ exports[`Slider Snapshots no indicators 1`] = `
         </li>
       </ul>
     </div>
+    <button
+      className="control-arrow control-prev control-disabled"
+      onClick={[Function]}
+      type="button"
+    />
     <button
       className="control-arrow control-next"
       onClick={[Function]}
@@ -2063,11 +2063,6 @@ exports[`Slider Snapshots no indicators 2`] = `
       }
     }
   >
-    <button
-      className="control-arrow control-prev control-disabled"
-      onClick={[Function]}
-      type="button"
-    />
     <div
       className="slider-wrapper axis-horizontal"
       style={Object {}}
@@ -2152,6 +2147,11 @@ exports[`Slider Snapshots no indicators 2`] = `
         </li>
       </ul>
     </div>
+    <button
+      className="control-arrow control-prev control-disabled"
+      onClick={[Function]}
+      type="button"
+    />
     <button
       className="control-arrow control-next"
       onClick={[Function]}
@@ -2352,11 +2352,6 @@ exports[`Slider Snapshots no thumbs 1`] = `
       }
     }
   >
-    <button
-      className="control-arrow control-prev control-disabled"
-      onClick={[Function]}
-      type="button"
-    />
     <div
       className="slider-wrapper axis-horizontal"
       style={Object {}}
@@ -2441,6 +2436,11 @@ exports[`Slider Snapshots no thumbs 1`] = `
         </li>
       </ul>
     </div>
+    <button
+      className="control-arrow control-prev control-disabled"
+      onClick={[Function]}
+      type="button"
+    />
     <button
       className="control-arrow control-next"
       onClick={[Function]}
@@ -2527,11 +2527,6 @@ exports[`Slider Snapshots swipeable false 1`] = `
       }
     }
   >
-    <button
-      className="control-arrow control-prev control-disabled"
-      onClick={[Function]}
-      type="button"
-    />
     <div
       className="slider-wrapper axis-horizontal"
       style={Object {}}
@@ -2613,6 +2608,11 @@ exports[`Slider Snapshots swipeable false 1`] = `
         </li>
       </ul>
     </div>
+    <button
+      className="control-arrow control-prev control-disabled"
+      onClick={[Function]}
+      type="button"
+    />
     <button
       className="control-arrow control-next"
       onClick={[Function]}
@@ -2818,11 +2818,6 @@ exports[`Slider Snapshots vertical axis 1`] = `
       }
     }
   >
-    <button
-      className="control-arrow control-prev control-disabled"
-      onClick={[Function]}
-      type="button"
-    />
     <div
       className="slider-wrapper axis-vertical"
       style={
@@ -2912,6 +2907,11 @@ exports[`Slider Snapshots vertical axis 1`] = `
         </li>
       </ul>
     </div>
+    <button
+      className="control-arrow control-prev control-disabled"
+      onClick={[Function]}
+      type="button"
+    />
     <button
       className="control-arrow control-next"
       onClick={[Function]}
