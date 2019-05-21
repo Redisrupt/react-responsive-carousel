@@ -1,5 +1,8 @@
 # React Responsive Carousel
 
+## This Fork changes:
+
+This fork moves the "prev arrow button" after the carousel content so we can get rid of the zIndexes which in our case were creating all sort of problems
 
 # Help wanted
 Things here are running very slowly as I have a lot of other stuff to take care at the moment so please don't be upset if I don't answer your question or if a PR sits unreviewed for a few days or weeks. Anyone interested in helping it move faster can help by submitting or reviewing PR's and answering each other's questions. (https://github.com/leandrowd/react-responsive-carousel/issues/160)
