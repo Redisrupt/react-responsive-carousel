@@ -716,8 +716,8 @@ class Carousel extends Component {
                             </ul>
                         }
                     </div>
-                    <button type="button" className={klass.ARROW_PREV(!hasPrev)} onClick={this.onClickPrev} />
-                    <button type="button" className={klass.ARROW_NEXT(!hasNext)} onClick={this.onClickNext} />
+                    <button type="button" className={klass.ARROW_PREV(!hasPrev)} onClick={this.onClickPrev}>{this.props.prevIcon}</button>
+                    <button type="button" className={klass.ARROW_NEXT(!hasNext)} onClick={this.onClickNext}>{this.props.nextIcon}</button>
                     { this.renderControls() }
                     { this.renderStatus() }
                 </div>
