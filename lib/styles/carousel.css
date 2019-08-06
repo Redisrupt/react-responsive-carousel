@@ -168,7 +168,7 @@
       width: 100%;
       vertical-align: top;
       border: 0; }
-    .carousel .slide iframe {
+    .carousel .slide .iframe {
       display: inline-block;
       width: calc(100% - 80px);
       margin: 0 40px 40px;
