@@ -576,7 +576,7 @@ class Carousel extends Component {
 
             return (
                 <li {...slideProps}>
-                    { item }
+                    { item(index === this.state.selectedItem || index === this.state.selectedItem + 1) }
                 </li>
             );
         });
