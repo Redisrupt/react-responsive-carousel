@@ -1,4 +1,4 @@
-import React, { Component, Children } from 'react';
+import React, { Component, Children, cloneElement } from 'react';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import klass from '../cssClasses';
@@ -560,11 +560,14 @@ class Carousel extends Component {
     }
 
     renderItems (isClone) {
+        const { cloneItems } = this.props;
         return Children.map(this.props.children, (item, index) => {
+            const { selectedItem } = this.state;
+            const selected = index === selectedItem;
             const slideProps = {
                 ref: (e) => this.setItemsRef(e, index),
                 key: 'itemKey' + index + (isClone ? 'clone' : ''),
-                className: klass.ITEM(true, index === this.state.selectedItem),
+                className: klass.ITEM(true, selected),
                 onClick: this.handleClickItem.bind(this, index, item)
             };
 
@@ -574,9 +577,11 @@ class Carousel extends Component {
                 };
             }
 
+            const shouldRender = selected || index === selectedItem + 1;
+
             return (
                 <li {...slideProps}>
-                    { item }
+                   { cloneItems ? cloneElement(item, { ...item.props, shouldRender, index, selected }) : item }
                 </li>
             );
         });
